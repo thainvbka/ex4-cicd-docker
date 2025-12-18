@@ -6,6 +6,7 @@ app.get("/", async (req, res) => {
 // Start server
 app.listen(3000, () => {
   console.log("Server running on http://localhost:3000");
-  console.log("Learn Docker CI/CD for Node.js");
+  console.log("Hello from Node.js application");
+  console.log("Learn Docker CI/CD for Node.js Application");
   console.log("Press CTRL+C to stop server");
 });
